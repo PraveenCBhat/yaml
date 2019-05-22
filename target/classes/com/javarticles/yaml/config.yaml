@@ -1,0 +1,23 @@
+hostName: 134.37.74.171
+port: 8080
+components: 
+    - name: cmp1
+      logDir: C:\\cmp1\\logs
+      logFile: cmp1.log
+      componentProperties:
+          no_of_repeats: 4
+          batch_size: 100
+    - name: cmp2
+      logDir: C:\\cmp2\\logs
+      logFile: cmp2.log
+      componentProperties:
+          no_of_repeats: 3
+          batch_size: 200
+componentProperties:
+ -
+  - no_of_repeats: 4
+  - batch_size: 100
+ -
+  - no_of_repeats: 3
+  - batch_size: 200
+          

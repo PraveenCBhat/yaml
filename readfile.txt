@@ -1,0 +1,9 @@
+#Person
+PRIM_KEY=personId
+SEX=gender
+YEARS=age
+NAME=fullName
+#Automobil
+PRIM_KEY=registrationNumber
+MAKE=manufacturer
+TYPE=model
